@@ -1,0 +1,38 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Serial Number and Attachment Query</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="container">
+<h1>Serial Number and Attachment Query</h1>
+<form action="/query" method="post">
+<div class="form-group">
+<label for="serial_numbers">Serial Numbers:</label>
+<input type="text" class="form-control" id="serial_numbers" name="serial_numbers" required>
+<small id="serial_numbers_help" class="form-text text-muted">Enter serial numbers separated by commas.</small>
+</div>
+<div class="form-group">
+<label for="attachment_names">Attachment Names:</label>
+<input type="text" class="form-control" id="attachment_names" name="attachment_names" required>
+<small id="attachment_names_help" class="form-text text-muted">Enter attachment names separated by commas.</small>
+</div>
+<input type="submit" class="btn btn-primary" value="Query">
+</form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+
